@@ -11,6 +11,8 @@ Url:		https://github.com/pr0m1th3as/datatypes/
 Source0:	https://github.com/pr0m1th3as/datatypes/archive/refs/tags/release-%{version}.tar.gz
 
 BuildRequires:  octave-devel >= 9.1.0
+# tests
+BuildRequires:  timezone
 
 Requires:	octave(api) = %{octave_api}
 
